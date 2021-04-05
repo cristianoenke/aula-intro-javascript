@@ -7,8 +7,18 @@
         </script>
     </head>
     <body>
-        
         <h1>My Page</h1>
+        <button type="button" onclick = "buttn()"> "Click here!" </button>
+        <button type="button" onclick = "redirecionar()"> "Click here!" </button>
+        <h3 id="click_thx"></h3>
+        <p id = "mouse_move" onmouseover="change(this)", onmouseout="change_back(this)">Pass the mouse over here!</p>
+        <p id = "mouse_move2" onmouseover="change(this)", onmouseout="change_back(this)">Pass the mouse over here!</p>
+        <select onchange="change_fcn(this)">
+            <option value = "1"> Valor 1</option>
+            <option value = "2"> Valor 2</option>
+            <option value = "3"> Valor 3</option>
+        </select>
+        <h3 id="selected_val"></h3>
     </body>
 
 </html>

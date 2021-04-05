@@ -68,3 +68,36 @@ var dt = new Date()
 console.log(dt)
 console.log(dt.getDay())
 console.log(dt.getHours())
+
+// Functions
+function soma(n1,n2){
+    return n1+n2
+}
+
+alert(soma(5,10))
+
+// Buttons
+function buttn(){
+    alert("Good Click!") //This will return an alert
+    document.getElementById("click_thx").innerHTML = ("It was a very good click, thank you!")           //This will print on screen
+}
+
+function redirecionar(){
+    window.open("https://www.google.com/"); // Redirect in new tab
+    //window.location.href = "https://www.google.com/" // Redirect same tab
+}
+
+function change(element){
+    //alert("The text changed!")
+    element.innerHTML = ("The text have changed")           //This will print on screen
+}
+
+function change_back(element){
+    //alert("The text changed!")
+    element.innerHTML = ("Pass the mouse over here!")           //This will print on screen
+}
+
+function change_fcn(element){
+    document.getElementById("selected_val").innerHTML = ("Selected value: "+ element.value)  
+
+}
